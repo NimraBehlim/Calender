@@ -1,0 +1,85 @@
+body {
+    background-color: #d6d5d5;
+}
+
+.calendar {
+    border: 1px solid #d6d5d5;
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: #f9f9f9;
+    padding: 20px;
+    max-width: 500px;
+    margin: auto;
+    margin-top: 5%;
+    height: 400px;
+}
+
+.month {
+    background-color: #0a0707;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+.weekdays,
+.days {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.weekdays div,
+.days div {
+    width: 14.28%;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.weekdays {
+    background-color: #e9ecef;
+    border-bottom: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+.days div {
+    background-color: #fff;
+    border-radius: 9px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.days div:hover {
+    background-color: #09090a;
+    color: white;
+}
+
+.previous {
+    margin-top: 20px;
+    border-radius: 5px;
+    border: 1px solid;
+    padding: 6px 10px;
+    cursor: pointer;
+    background-color: #e9ecef;
+}
+
+.previous:hover {
+    color: white;
+    background-color: #09090a;
+}
+
+.next {
+    margin-top: 20px;
+    border-radius: 5px;
+    border: 1px solid;
+    padding: 6px 10px;
+    cursor: pointer;
+    background-color: #e9ecef;
+}
+
+.next:hover {
+    color: white;
+    background-color: #09090a;
+}
